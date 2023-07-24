@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+
+    <title>JQuery</title>
+</head>
+
+<body>
+    <div class="container">
+
+
+        <!-- Events -->
+
+
+        <h1>Hello World ! </h1>
+        <p class="p">Click P !</p>
+        <p class="p">Click P !</p>
+        <p class="p">Click P !</p>
+        <h3 class="mt-5">Enter the header 3</h3>
+        <div class="mt-5">
+            <input type="text" class="input">
+        </div>
+        <h2>Enter mouse</h2>
+
+        <!-- Hide & show -->
+
+        <div class="my-5 bg-warning p-2">
+            <p class="myWord">Hello My name is Kerem. I am a software developer. I have future technologies. I know web
+                developer
+                tools. I am better</p>
+            <button class="hide">Hide</button>
+            <button class="show">Show</button>
+        </div>
+
+        <!-- Toggle -->
+
+        <div class="my-5 bg-success p-2">
+            <p class="myWord1">Hello My name is Kerem. I am a software developer. I have future technologies. I know web
+                developer
+                tools. I am better</p>
+            <button class="toggle">Hide and Show & ---TOGGLE---</button>
+        </div>
+
+        <!-- Fade -->
+
+        <div class="my-5">
+            <button class="my-4" id="fadeBtn">Cllick : Fade (Toggle)</button>
+            <div id="box1" style="width:80px;height:80px;background-color:red;"></div>
+            <br>
+            <div id="box2" style="width:80px;height:80px;background-color:green;"></div>
+            <br>
+            <div id="box3" style="width:80px;height:80px;background-color:blue;"></div>
+        </div>
+
+
+        <!-- Animate -->
+
+        <div class="my-5">
+            <button class="my-4" id="animateBtn">Cllick : Animate</button>
+            <div id="redBox" style="width:80px;height:80px;background-color:red;"></div>
+        </div>
+
+        <div class="my-5">
+            <button class="my-4" id="ultraAnimate">Cllick : Animate</button>
+            <div id="greenBox" style="width:80px;height:80px;background-color:rgb(26, 255, 0);"></div>
+        </div>
+
+
+        <!-- jquery method chaining -->
+        <p id="p1">jQuery is fun!!</p>
+        <button id="clickMe">Click me</button>
+
+
+
+        <!-- Slide -->
+
+        <div class="my-5">
+            <div id="flip" class=" mt-5 p-2 bg-warning text-center border border-black">Click to slide down panel</div>
+            <div id="panel" class="bg-warning border border-5 border-success  " style="padding: 3%; display: none;">
+                Hello
+                My name is Kerem. How Are You ?</div>
+        </div>
+
+        <div class="my-5">
+            <div id="flip2" class=" mt-5 p-2 bg-secondary text-white  text-center border border-black">Click to slide
+                down panel
+            </div>
+            <div id="panel2" class="bg-dark text-white border border-5 border-danger  "
+                style="padding: 3%; display: none;">
+                i am fine. thanks. what about you ?</div>
+        </div>
+
+        <!-- -------get------ -->
+
+        <!-- val() -->
+
+        <div class="my-5">
+            <p>Name: <input type="text" id="test"></p>
+
+            <button id="showValue">Show Value</button>
+        </div>
+
+
+        <!-- attr() -->
+        <div class="my-5">
+            <p><a href="https://www.w3schools.com" id="w3s">W3Schools.com</a></p>
+            <button id="getAttribute">Click : attr()</button>
+        </div>
+
+        <!-- --------set------ -->
+
+        <div class="my-5">
+            <p id="test11">This is a paragraph.</p>
+            <p id="test22">This is another paragraph.</p>
+
+            <p>Input field: <input type="text" id="test33"></p>
+
+            <button id="button1">Set Text</button>
+            <button id="button2">Set HTML</button>
+            <button id="button3">Set Value</button>
+        </div>
+
+
+        <!-- attr() -->
+        <div class="my-5">
+            <p><a href="https://www.w3schools.com" id="w3sJ">W3Schools.com</a></p>
+
+            <button class="buttonSet">Change href Value</button>
+
+            <p>Mouse over the link (or click on it) to see that the value of the href attribute has changed.</p>
+
+        </div>
+
+    </div>
+
+
+    <!--
+    <!- BOOTSTRAP --
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"
+        integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS"
+        crossorigin="anonymous"></script>
+
+    <!- JQUERY --
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+
+    <script src="Javascript/app.js"></script>
+-->
+</body>
+
+</html>

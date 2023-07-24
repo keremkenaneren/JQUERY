@@ -1,0 +1,27 @@
+JQuery Example :
+
+https://www.w3schools.com/jquery/jquery_examples.asp
+
+
+Events :
+
+https://www.w3schools.com/jquery/jquery_ref_events.asp
+
+
+Animate & Effect :
+
+https://www.w3schools.com/jquery/jquery_ref_effects.asp
+
+
+Ajax :
+
+https://www.w3schools.com/jquery/jquery_ref_ajax.asp
+
+
+Methods :
+
+https://www.w3schools.com/jquery/jquery_ref_misc.asp
+
+
+
+
